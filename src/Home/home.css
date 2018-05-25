@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar Styles */
+.navbar{
+    border-bottom:.1px solid #009DA0;
+}
+.navbar-light {
+    background-color: #FFF;
+    box-shadow: 2px 2px 15px 2px #0000001f;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+.navbar h2{
+    color: dodgerblue;
+}
+/* Sidenav bar */
+.position-fixed{
+    position: fixed;
+}
+.side-nav{
+    background-color: #009DA0;
+    height: 100vh;
+}
+.side-nav ul{
+    list-style-type: none;
+}
+.side-nav ul a:hover{
+    text-decoration: none;
+}
+#sidenav-bar{
+    margin-top:0.8rem !important;
+}
+.body-sec .row{
+    margin-right:0px !important;
+}

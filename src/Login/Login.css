@@ -1,0 +1,111 @@
+.login-form {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 50%;
+    margin: 10% auto 0;
+    padding: 32px 32px 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+.login-form h1 {
+    font-size: 2.6em;
+    color: #38dfa6;
+    text-align: center;
+    text-shadow: 0 0 2px #999;
+    margin-bottom: 16px;
+}
+.login-form-submit {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    margin-top: 10px;
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.social-login{
+    height: 100%;
+}
+.button{
+    margin-top: 25%;
+    height: 100%;
+    display:block;
+    text-align:center;
+    justify-content: center;
+}
+.fbutton{
+    margin-top: 10px;
+    display:none;
+    text-align:center;
+    justify-content: center;
+}
+#facebookBtn{
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #507CC0;
+    width: 100%;
+}
+#googleBtn{
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #DF4930;
+
+}
+#twitterBtn{
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #64CCF1;
+
+}
+.local-login{
+ margin-top: 20px;
+    z-index: auto;
+
+}
+#name-help{
+    color:red;
+}
+.thank-you{
+    width: 50%;
+    margin: 10%  35% ;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+
+}
+.temp{
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+}
+#forgot-pwd-h1{
+    padding-left: 10%;
+}
+#forgot-pwd-label{
+    margin-top: 5%;
+    color: #00B5D5;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
